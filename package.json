@@ -1,6 +1,6 @@
 {
   "name": "ans-mmsnap",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The MetaMask Snap for name resolution in Autonomys.",
   "repository": {
     "type": "git",
@@ -10,6 +10,7 @@
   "main": "./dist/bundle.js",
   "files": [
     "dist/",
+    "images/",
     "snap.manifest.json"
   ],
   "scripts": {
