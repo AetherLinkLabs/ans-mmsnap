@@ -4,10 +4,10 @@
   "proposedName": "AutonomysNameService",
   "repository": {
     "type": "git",
-    "url": "github.com:AetherLinkLabs/ans-mmsnap.git"
+    "url": "https://github.com/AetherLinkLabs/ans-mmsnap"
   },
   "source": {
-    "shasum": "Iz1jGQYEyiicge56dQXBQqiiVcQNvxTaSqY+xuYAsFw=",
+    "shasum": "MP/GJ3E/Ly3wJ/bAn0JruYMT5KyZZaRK1uooeCYlBlE=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",

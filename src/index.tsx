@@ -38,7 +38,6 @@ async function callResolveApi(domain: string): Promise<string | null > {
     if (addr === emptyAddress) return null;
     return addr;
   } catch (error) {
-    console.error('Error resolving domain through RPC:', error);
     throw error;
   }
 }
@@ -61,8 +60,6 @@ const debouncedCallResolveApi = debounce(callResolveApi, 600);
 export const onNameLookup: OnNameLookupHandler = async (request: AddressLookupArgs | DomainLookupArgs) => {
   const { chainId, address, domain } = request;
 
-  console.log('onNameLookup', request);
-
   if (address) {
     // address resolution have not been able by now, ignore it
     return null;
@@ -79,7 +76,7 @@ export const onNameLookup: OnNameLookupHandler = async (request: AddressLookupAr
         };
       }
     } catch (error) {
-      console.error(error);
+      throw error;
     }
   }
 

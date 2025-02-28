@@ -4,7 +4,7 @@
   "description": "The MetaMask Snap for name resolution in Autonomys.",
   "repository": {
     "type": "git",
-    "url": "github.com:AetherLinkLabs/ans-mmsnap.git"
+    "url": "https://github.com/AetherLinkLabs/ans-mmsnap"
   },
   "license": "(MIT-0 OR Apache-2.0)",
   "main": "./dist/bundle.js",
