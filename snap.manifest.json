@@ -1,0 +1,28 @@
+{
+  "version": "0.1.0",
+  "description": "An MetaMask Snap for name resolution in Autonomys (current only for test networks eip155:490000)",
+  "proposedName": "AutonomysNameService",
+  "repository": {
+    "type": "git",
+    "url": "github.com:AetherLinkLabs/ans-mmsnap.git"
+  },
+  "source": {
+    "shasum": "bSntJpAkWt05RAR1l14axOfHb2zw+HuuhXZfJIknlqo=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "ans-mmsnap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:ethereum-provider": {},
+    "endowment:name-lookup": {
+      "chains": ["eip155:490000"]
+    }
+  },
+  "platformVersion": "6.14.0",
+  "manifestVersion": "0.1"
+}
