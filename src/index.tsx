@@ -33,9 +33,11 @@ async function callResolveApi(domain: string): Promise<string | null > {
       "function getUserAddress(string name) view returns (address)"
     ];
     const contract = new ethers.Contract(contractAddress, contractABI, provider);
-    const addr = await contract.getUserAddress?(domain) : emptyAddress;
+    if (!contract.getUserAddress) {
+      return null;
+    }
+    const addr = await contract.getUserAddress(domain);
 
-    if (addr === emptyAddress) return null;
     return addr;
   } catch (error) {
     throw error;
