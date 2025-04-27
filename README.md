@@ -18,7 +18,7 @@ By the way, every user in the Autonomys network can call the `ANS Contract`(0xbd
 
 ## Installation
 
-The snap is currently on submitting to MetaMask, after submitting, you can install the snap from the [MetaMask Snap Market](https://snaps.metamask.io/) directly.
+The snap is currently on submitting to MetaMask, after submitting, you can install the snap from the [MetaMask Snap Market](https://snaps.metamask.io/snap/npm/ans-mmsnap/) directly.
 
 ## Development
 
